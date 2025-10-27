@@ -9,7 +9,7 @@
    ```
 3. Abre el enlace que sale (http://localhost:5173).
 
-## 🖼️ Dónde poner tus imágenes
+## 
 Coloca tus archivos en:
 ```
 public/images/trabajos/

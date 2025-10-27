@@ -1,3 +1,4 @@
+import { SiTiktok } from "react-icons/si";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -478,17 +479,18 @@ function Footer() {
         <div>
           <p className="text-sm font-semibold text-white">Contacto</p>
           <ul className="mt-2 grid gap-2 text-sm text-slate-300">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4"/> +593 000 000 000</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4"/> contacto@granitosdecor.com</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4"/> +593981469846</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4"/> dannysarii.cornejo@gmail.com</li>
             <li className="flex items-center gap-2"><MapPin className="h-4 w-4"/> Cuenca, Ecuador</li>
           </ul>
         </div>
         <div>
           <p className="text-sm font-semibold text-white">Síguenos</p>
           <div className="mt-2 flex gap-3 text-slate-300">
-            <a href="https://facebook.com/granitosdecor" target="_blank" rel="noreferrer" className="hover:text-orange-300"><Facebook className="h-5 w-5"/></a>
-            <a href="https://wa.me/593000000000" target="_blank" rel="noreferrer" className="hover:text-orange-300"><MessageSquare className="h-5 w-5"/></a>
+            <a href="https://www.facebook.com/profile.php?id=100054983479895&sk=about&locale=es_LA" target="_blank" rel="noreferrer" className="hover:text-orange-300"><Facebook className="h-5 w-5"/></a>
+            <a href="https://wa.me/593981469846" target="_blank" rel="noreferrer" className="hover:text-orange-300"><MessageSquare className="h-5 w-5"/></a>
             <a href="#" className="hover:text-orange-300"><Instagram className="h-5 w-5"/></a>
+            <a href="https://www.tiktok.com/@granitosdecor" target="_blank" rel="noreferrer" className="hover:text-orange-300"><Tiktok className="h-5 w-5" /></a>
           </div>
         </div>
       </div>
