@@ -491,7 +491,7 @@ function Footer() {
             <a href="https://wa.me/593981469846" target="_blank" rel="noreferrer" className="hover:text-orange-300"><MessageSquare className="h-5 w-5"/></a>
             <a href="#" className="hover:text-orange-300"><Instagram className="h-5 w-5"/></a>
             <a
-            href="https://www.tiktok.com/@granitosdecor"
+            href="https://www.tiktok.com/@leocornejo247?_t=ZM-90t5uRZlc3E&_r=1"
             target="_blank"
             rel="noreferrer"
             className="hover:text-orange-300"
