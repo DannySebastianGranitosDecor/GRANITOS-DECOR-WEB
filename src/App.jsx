@@ -1,6 +1,6 @@
-import { SiTiktok } from "react-icons/si";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { SiTiktok } from "react-icons/si";
 import {
   Hammer,
   Ruler,
@@ -490,7 +490,18 @@ function Footer() {
             <a href="https://www.facebook.com/profile.php?id=100054983479895&sk=about&locale=es_LA" target="_blank" rel="noreferrer" className="hover:text-orange-300"><Facebook className="h-5 w-5"/></a>
             <a href="https://wa.me/593981469846" target="_blank" rel="noreferrer" className="hover:text-orange-300"><MessageSquare className="h-5 w-5"/></a>
             <a href="#" className="hover:text-orange-300"><Instagram className="h-5 w-5"/></a>
-            <a href="https://www.tiktok.com/@granitosdecor" target="_blank" rel="noreferrer" className="hover:text-orange-300"><Tiktok className="h-5 w-5" /></a>
+            <a
+            href="https://www.tiktok.com/@granitosdecor"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-orange-300"
+            aria-label="TikTok"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="h-5 w-5 fill-current">
+              <path d="M448,209.9c-17.6,0-34.7-1.8-51.2-5.2v131.7c0,80.3-65.1,145.4-145.4,145.4s-145.4-65.1-145.4-145.4,65.1-145.4,145.4-145.4c5.3,0,10.5,0.3,15.6,0.8v65.7c-5.1-0.7-10.3-1-15.6-1-44,0-79.6,35.6-79.6,79.6s35.6,79.6,79.6,79.6,79.6-35.6,79.6-79.6V0h65.7c0,35.8,29,64.8,64.8,64.8V209.9z"/>
+            </svg>
+          </a>
+
           </div>
         </div>
       </div>
