@@ -45,7 +45,7 @@ const navItems = [
   { key: "contacto", label: "Contáctanos", icon: Phone },
 ];
 
-// Reemplaza estos archivos en /public/images/trabajos/ con tus fotos reales (mismos nombres o cambia los paths)
+
 const trabajosDemo = [
   {
     titulo: "Cocina en Cuarzo Blanco Ártico",
@@ -149,12 +149,16 @@ function Nav({ page, setPage }) {
   return (
     <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-emerald-950/70">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <div className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 shadow-lg shadow-orange-900/40" />
-          <div>
-            <p className="text-sm uppercase tracking-widest text-slate-300">Granitos Decor</p>
-            <p className="-mt-1 text-xs text-slate-400">Cocinas • Baños • Superficies</p>
-          </div>
+       <div className="flex items-center gap-3">
+        <img
+          src="/images/favicon.jpg"
+          alt="Logo Granitos Decor"
+          className="h-9 w-9 rounded-xl object-cover shadow-lg shadow-orange-900/40"
+        />
+        <div>
+          <p className="text-sm uppercase tracking-widest text-slate-300">Granitos Decor</p>
+          <p className="-mt-1 text-xs text-slate-400">Cocinas • Baños • Superficies</p>
+        </div>
         </div>
         <nav className="hidden gap-1 md:flex">
           {navItems.map(({ key, label }) => (
